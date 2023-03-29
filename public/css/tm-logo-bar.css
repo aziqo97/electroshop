@@ -1,0 +1,27 @@
+
+.logo-bar__item {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle
+}
+.logo-bar {
+  margin: 0;
+  background-color: var(--color-base-button-text-hover);
+  border-radius: 5px;
+  padding: 45px 15px;
+}
+.logo-bar .owl-item {
+  text-align: center;
+}
+.logo-bar__image {
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  
+}
+
+@media (max-width: 479px) {
+  .logo-bar {
+    text-align: center;
+  }
+}
